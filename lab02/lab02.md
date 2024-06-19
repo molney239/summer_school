@@ -56,13 +56,33 @@
 
 Вы можете положить код сервиса в отдельную директорию рядом с этим документом.
 
+Файл - app.py, запуск - flask run (в директории с файлом).
+
 ### Задание Б (3 балла)
 Продемонстрируйте работоспособность сервиса с помощью программы Postman
 (https://www.postman.com/downloads) и приложите соответствующие скрины, на которых указаны
 запросы и ответы со стороны сервиса для **всех** его операций.
 
 #### Демонстрация работы
-todo
+
+Действия выполняются по порядку.
+
+Добавление:
+![image](https://github.com/molney239/summer_school/assets/70073404/37aa77e8-64e4-4039-a694-3eea50c7a1e8)
+Получение (успешно):
+![image](https://github.com/molney239/summer_school/assets/70073404/e94a2e43-c513-4d0a-91f3-66ea0bfe9582)
+Получение (ошибка):
+![image](https://github.com/molney239/summer_school/assets/70073404/ac5c623f-750d-4b27-8007-1fb7d7830b36)
+Обновление (частично)
+![image](https://github.com/molney239/summer_school/assets/70073404/298e9362-95e7-4075-983a-d99d2238310c)
+Обновление (ошибка):
+![image](https://github.com/molney239/summer_school/assets/70073404/1644be43-6635-4267-a037-e5ce4437bb79)
+Удаление (успешно):
+![image](https://github.com/molney239/summer_school/assets/70073404/5dec9380-dd4e-4763-b8d1-5ef75a975b0c)
+Удаление (ошибка):
+![image](https://github.com/molney239/summer_school/assets/70073404/c22a1794-cc7f-4757-a284-f73933290a21)
+Получение всех продуктов:
+![image](https://github.com/molney239/summer_school/assets/70073404/d2f919ba-fe60-4894-8818-847491ec3dd6)
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
